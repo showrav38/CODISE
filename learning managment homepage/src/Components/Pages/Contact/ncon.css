@@ -1,0 +1,34 @@
+.trt {
+  display: block !important;
+  margin-top: 0.2em !important 
+    ;
+  margin-bottom: 0.5em !important;
+  margin-left: 12px !important;
+  /* margin-right: auto !important; */
+  width: 50% /* border-style: inset !important */;
+  border: 1px solid black !important;
+  /* border-width: 1px !important; */
+  display: block;
+}
+/* @media screen and(max-width:450px) {
+  textarea {
+    width: 300px !important;
+  }
+}
+ */
+
+/* textarea {
+  background: rgba(0, 0, 0, 0) !important;
+  border: 1px solid black !important;
+  outline: 0 !important;
+  cursor: text !important;
+}
+textarea {
+  resize: none !important;
+} */
+
+@media screen and (min-width: 700px) {
+  .lst {
+    width: 480px !important;
+  }
+}

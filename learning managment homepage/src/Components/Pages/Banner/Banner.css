@@ -1,0 +1,9 @@
+@media screen and (min-width: 700px) {
+  .respb {
+    margin: auto;
+  }
+  .size {
+    height: 255px !important;
+    width: 330px !important;
+  }
+}

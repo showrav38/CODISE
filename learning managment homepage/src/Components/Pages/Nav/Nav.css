@@ -1,0 +1,85 @@
+/* .ttt {
+  border-left: 2px solid green;
+  height: 20px;
+  position: absolute;
+  right: 11%;
+  margin-left: -13px;
+  top: 5;
+} */
+
+@media screen and (min-width: 992px) {
+  #main-menu a::after {
+    content: '|';
+    float: right;
+    color: #000;
+    position: relative;
+    left: 14px;
+  }
+
+  #main-menu .llink:last-of-type.llink::after {
+    display: none;
+    visibility: hidden;
+  }
+}
+/* #main-menu .llink::after {
+  content: '|';
+  float: right;
+  color: #000;
+  position: relative;
+  left: 14px;
+}
+
+#main-menu .llink:last-of-type:after {
+  display: none;
+  visibility: hidden;
+} */
+.llink {
+  color: black;
+}
+Link {
+  color: #000;
+}
+
+.hamicon {
+  /* over:text-purple hover:border-purple  */
+  background: purple;
+  border: 1px solid orange;
+}
+.hamicon:hover {
+  /* over:text-purple hover:border-purple  */
+  color: purple;
+  border: 1px solid purple;
+}
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: inline-flex !important;
+  }
+}
+
+.btn {
+  background-image: linear-gradient(to right, #da8cff, #9a55ff);
+  color: white;
+  text-align: center;
+  border: red !important;
+}
+.btn:hover {
+  background: transparent;
+  color: black;
+  border: 1px solid #9a55ff !important;
+  /* border: #9a55ff; */
+}
+.btn1 {
+  background: transparent;
+  color: black;
+  text-align: center;
+  border: 1px solid purple !important;
+}
+.btn1:hover {
+  background-image: linear-gradient(to right, #da8cff, #9a55ff);
+  color: white;
+  border: 1px solid white !important;
+  /* border: #9a55ff; */
+}
+
+/* bg-secondary border border-primary text-white px-8 font-medium rounded-r-md hover:bg-transparent hover:text-primary transition */
